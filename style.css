@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+    min-height: 500px;
+    margin: 0px auto;
+    border: 5px solid black;
+    border-radius: 8px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    gap: 7px;
+    padding: 5px;
+    flex-direction: column;
+
+}
+
+.buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    row-gap: 9px;
+}
+
+button{
+    font-size: 70px;
+    padding: 9px;
+    width: 85px;
+    height: 85px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+#clear{
+    background-color: orange;
+}
+.operations{
+    background-color: rgb(15, 13, 13);
+    color: white;
+
+}
+
+#display{
+    padding-top: 10px;
+    height: 40px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.displayContainer{
+    width: 100%;
+}
