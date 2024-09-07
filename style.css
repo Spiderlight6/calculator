@@ -50,7 +50,9 @@ button{
     height: 40px;
     font-size: 50px;
     font-weight: bold;
-
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
 }
 .displayContainer{
     width: 100%;

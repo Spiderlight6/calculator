@@ -4,14 +4,15 @@ let theOperator;
 let secondNumber;
 
 const display = document.querySelector("#display");
-let showResult;
+let showResult = "";
 
 function showDisplay(v){
-    showResult = v;
+    showResult += v;
+    if(showResult.length > 11){
+        showResult = showResult.substring(0,11);
+    }
     display.textContent = showResult;
-
 }
-
 
 const adding = function(x, y){
     return x + y;
