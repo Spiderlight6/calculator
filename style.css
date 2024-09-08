@@ -1,7 +1,10 @@
 body {
+    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);  
 }
 #container{
     display: flex;
@@ -16,7 +19,10 @@ body {
     gap: 7px;
     padding: 5px;
     flex-direction: column;
-
+    background-color: black;
+    align-content: center;
+    margin-top: 5%;
+    
 }
 
 .buttonContainer{
@@ -25,6 +31,7 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
     row-gap: 9px;
+    width: 100%;
 }
 
 button{
@@ -34,8 +41,14 @@ button{
     height: 85px;
     border-radius: 15px;
     cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
     
 }
+.numbers:hover{
+    background-color: #d4d4d4; 
+    transform: scale(1.05);
+}
+
 #clear{
     background-color: orange;
 }
@@ -43,6 +56,9 @@ button{
     background-color: rgb(15, 13, 13);
     color: white;
 
+}
+.operations:hover{
+    background-color: #363434;
 }
 
 #display{
@@ -55,8 +71,11 @@ button{
     max-width: 350px;
     border: 3px solid black;
     align-items: center;
-    min-height: 50px;
+    min-height: 60px;
     padding-left: 5px;
+    background-color: white;
+    text-align: right;
+    margin-bottom: 20px;
 }
 .displayContainer{
     width: 100%;
