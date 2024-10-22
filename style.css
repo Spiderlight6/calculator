@@ -45,12 +45,15 @@ button{
     
 }
 .numbers:hover{
-    background-color: #d4d4d4; 
+    background-color: #604a4a; 
     transform: scale(1.05);
 }
 
 #clear{
-    background-color: orange;
+    background-color: #ffa500;
+}
+#clear:hover{
+    background-color: #68480cfe;
 }
 .operations{
     background-color: rgb(15, 13, 13);
